@@ -1,0 +1,10 @@
+@api = http://localhost:3000
+
+###PUT TAREA 1
+POST {{api}}/tareas
+Content-Type: application/json
+
+{
+    "descripcion": "Pasear al perro",
+    "completada": false
+}
