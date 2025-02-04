@@ -8,3 +8,24 @@ Content-Type: application/json
     "descripcion": "Pasear al perro",
     "completada": false
 }
+
+### GET
+GET {{api}}/tareas
+
+### GET ID
+GET {{api}}/tareas/1
+
+### PUT 
+PUT {{api}}/tareas/1
+Content-Type: application/json
+
+{
+    "descripcion": "Pasear al perro",
+    "completada": false
+}
+
+### DELETE ID
+DELETE {{api}}/tareas/2
+
+### GET ESTADISTICAS
+GET {{api}}/estadisticas
